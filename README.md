@@ -94,3 +94,10 @@ To use the `validate_account` function, you can follow this example:
     
     # Print the response
     print(response.json())
+
+## Get image from docker
+    $ docker pull roycjob104/account-management-api:latest
+
+
+## Run the image
+    $ docker run -d --name account-management-api -p 80:80 roycjob104/account-management-api:latest
